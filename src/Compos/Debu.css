@@ -1,0 +1,120 @@
+.navbar-right, .nav-links {
+    display: flex;
+    gap: 2rem;
+    background-color: #FFBC00;
+}
+.nav-item{
+    margin-left: 40rem;
+    border-width: 0.1rem;
+    border-color: #FFBC00;
+    text-align: center;
+    background-color: #C9252C;
+    color: white;
+}
+.log{
+    margin-left: 40rem;
+    border-width: 0.1rem;
+    border-color: #FFBC00;
+    text-align: center;
+    background-color: #C9252C;
+    color: white;
+}
+.logo{
+    height: 3rem;
+    width: 6rem;
+}
+#resp-table{
+    width: 100%;
+    display: table;
+}
+#resp-table-caption{
+    display: table-caption;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#resp-table-header{
+    display: table-header-group;
+    background-color: beige;
+    font-weight: bold;
+    font-size: 25px;
+}
+.table-header-cell{
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px black;
+}
+#resp-table-body{
+    display: table-row-group;
+}
+.resp-table-row{
+    display: table-row;
+}
+.table-body-cell{
+    display: table-cell;
+}
+#resp-table-footer{
+    display: table-footer-group;
+    background-color: grey;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(red, green, blue, alpha);
+}
+.table-footer-cell{
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px black;
+}
+.container{
+    display: table;
+    border-collapse: collapse;
+    width:200px;
+    margin-left: 40%;
+}
+.heading{
+    font-weight: bold;
+    display: table-row;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: Georgia;
+    color: brown;
+    width: 90%;
+}
+.table-row{
+    display: table-row;
+    text-align: center;
+}
+.col{
+    display: table-cell;
+    border: 1px solid green;
+}
+.side{
+    height: 100rem;
+    width: 10rem;
+    background-color: lightslategray;
+    position: absolute;
+}
+.menu{
+    color: white;
+    border-color: #C9252C;
+    border-width: 0.1rem;
+    border-style: ridge;
+    padding-left: 1rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #C9252C;
+}
+.content{
+    position: absolute;
+    left: 12rem;
+    right: 2rem;
+}
+.line{
+    border: 1px solid #C9252C;
+
+}
